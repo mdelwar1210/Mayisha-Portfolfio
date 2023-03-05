@@ -9,7 +9,7 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio website complete</title>
+        <title>Digital Art</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -21,11 +21,10 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#p5" class="nav__link active">P5</a></li>
+                        <li class="nav__item"><a href="#self-portrait" class="nav__link">Self Portrait</a></li>
+                        <li class="nav__item"><a href="#mask-up" class="nav__link">Mask Up</a></li>
+                        <li class="nav__item"><a href="#sabr" class="nav__link">Sabr</a></li>
                     </ul>
                 </div>
 
@@ -36,24 +35,25 @@
         </header>
 
         <!--===== p5js =====-->
-        <section class="about section " id="about">
-            
-        <iframe src="https://editor.p5js.org/mayisha.delwar/full/LP8vziB2-" width="800px" height="800px"></iframe>
-        <div>
-            <h2 class="about__subtitle">Perlin Picture ??</h2>
-            <p class="about__text">Digital art using perlin algorithm. Click background and squares to interact.</p> 
-            <p class="about__text">Software: p5js</p>           
-        </div> 
+        <section class="about__container bd-grid top-page" id="p5">
+            <div id="wrap">
+                <iframe id="scaled-frame" src="https://editor.p5js.org/mayisha.delwar/full/LP8vziB2-"></iframe>
+            </div>
+            <div class ="caption">
+                <h2 class="about__subtitle">Perlin Picture ??</h2>
+                <p class="about__text">Digital art using perlin algorithm. Click background and squares to interact.</p> 
+                <p class="about__text">Software: p5js</p>           
+            </div> 
         </section>
 
         <!-- self portrait -->
-        <section>
+        <section id="self-portrait">
             <div class="about__container bd-grid">
                 <div class="digital__img">
                     <img src="assets/work files/Digital Art/SelfPortrait_MayishaDelwar.png" alt="">
                 </div>
                 
-                <div>
+                <div class ="caption">
                     <h2 class="about__subtitle">Self Portrait</h2>
                     <p class="about__text">Self portrait, inspired by nature and galaxies.</p> 
                     <p class="about__text">Software: Adobe Photoshop</p>           
@@ -62,13 +62,13 @@
         </section>
 
         <!-- covid -->
-        <section>
+        <section id="mask-up">
             <div class="about__container bd-grid">
                 <div class="digital__img">
                     <img src="assets/work files/Digital Art/PopArtProject.jpg" alt="">
                 </div>
                 
-                <div>
+                <div class ="caption">
                     <h2 class="about__subtitle">Mask Up</h2>
                     <p class="about__text">Andy Warhol inspired pop art during pandemic.</p> 
                     <p class="about__text">Software: Adobe Photoshop</p>           
@@ -77,20 +77,38 @@
         </section>
 
         <!-- sabr -->
-        <section>
-            <div class="about__container bd-grid">
+        <section id="sabr">
+            <div class="about__container bd-grid bottom-page">
                 <div class="digital__img">
-                    <img src="assets/work files/Digital Art/TypographyProject-SabrFinal.pdf" alt="">
+                    <img src="assets/work files/Digital Art/SabrFinal.png" alt="">
                     
                 </div>
                 
-                <div>
+                <div class ="caption">
                     <h2 class="about__subtitle">Sabr</h2>
                     <p class="about__text">Word art of two hands together in prayer with arabic word for patience, "sabr."</p> 
                     <p class="about__text">Software: Adobe Illustrator</p>           
                 </div>                                   
             </div>
         </section>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Mayisha</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <!-- <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p> -->
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
 
 
     </body>

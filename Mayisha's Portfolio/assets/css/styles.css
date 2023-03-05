@@ -372,23 +372,6 @@ img {
   border-radius: 5px;
 }
 
-/* .first-txt {
-  position: absolute;
-  top: 40%;
-  left: 30%;
-}
-
-h2 span { 
-  color: black; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.7);
-  background: rgba(255,255,255,0.7);
-  padding: 10px; 
-  border-radius: 5px;
-} */
-
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
@@ -437,6 +420,41 @@ h2 span {
 
 .footer__copy {
   font-size: var(--smaller-font-size);
+}
+
+/* ===== 2D MIXED MEDIA ===== */
+.caption {
+  text-align: center;
+}
+
+/* ===== Digital Art ===== */
+#wrap {
+  width: 600px;
+  height: 600px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#scaled-frame {
+  width: 815px;
+  height: 850px;
+  border: 0px;
+}
+
+#scaled-frame {
+  zoom: 0.75;
+  -moz-transform: scale(0.75);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.75);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.75);
+  -webkit-transform-origin: 0 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #scaled-frame {
+    zoom: 1;
+  }
 }
 
 /* ===== MEDIA QUERIES=====*/
@@ -566,10 +584,11 @@ h2 span {
 }
 
 .top-page {
-  padding-top: 7.5rem;
+  padding-top: 6rem;
+}
+.bottom-page {
+  padding-bottom: 3rem;
 }
 
-.caption {
-  text-align: center;
-}
+
 

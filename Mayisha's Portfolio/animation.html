@@ -9,7 +9,7 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio website complete</title>
+        <title>Animation</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -21,11 +21,9 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#flower" class="nav__link active">Flower</a></li>
+                        <li class="nav__item"><a href="#soup" class="nav__link">Good Soup</a></li>
+                        <li class="nav__item"><a href="#salad" class="nav__link">Good Salad</a></li>
                     </ul>
                 </div>
 
@@ -37,8 +35,8 @@
 
 
         <!-- flower -->
-        <section>
-            <div class="about__container bd-grid">
+        <section id="flower">
+            <div class="about__container bd-grid top-page">
                 <div class="digital__img">
                     <video width="640" height="360" controls>
                         <source src="assets/work files/Animation/Animation_Mayisha_Delwar_P1.mp4" type="video/mp4">
@@ -47,7 +45,7 @@
                       </video>
                 </div>
                 
-                <div>
+                <div class="caption">
                     <h2 class="about__subtitle">flower</h2>
                     <p class="about__text">flower finds new home.</p> 
                     <p class="about__text">Software: Adobe Animate</p>           
@@ -56,7 +54,7 @@
         </section>
 
         <!-- good soup -->
-        <section>
+        <section id="soup">
             <div class="about__container bd-grid">
                 <div class="digital__img">
                     <video width="640" height="360" controls>
@@ -66,7 +64,7 @@
                       </video>
                 </div>
                 
-                <div>
+                <div class="caption">
                     <h2 class="about__subtitle">Good Soup</h2>
                     <p class="about__text">Stop motion animation. Food brings beings together.</p> 
                     <p class="about__text">Software: Adobe Premire Pro, Lightroom</p>           
@@ -75,8 +73,8 @@
         </section>
 
         <!-- good salad -->
-        <section>
-            <div class="about__container bd-grid">
+        <section id="salad">
+            <div class="about__container bd-grid bottom-page">
                 <div class="digital__img">
                     <video width="640" height="360" controls>
                         <source src="assets/work files/Animation/GoodSaladFinal.mp4" type="video/mp4">
@@ -85,7 +83,7 @@
                       </video>
                 </div>
                 
-                <div>
+                <div class="caption">
                     <h2 class="about__subtitle">Good Salad</h2>
                     <p class="about__text">Super Mario - Salad edition</p> 
                     <p class="about__text">Software: Adobe After Effects (and something else?) </p>           
@@ -93,6 +91,21 @@
             </div>
         </section>
 
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Mayisha</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <!-- <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p> -->
+        </footer>
 
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
     </body>
 </html>

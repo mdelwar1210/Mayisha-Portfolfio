@@ -9,7 +9,7 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio website complete</title>
+        <title>Multimedia</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -21,11 +21,11 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#drift" class="nav__link active">Drifting on Rings</a></li>
+                        <li class="nav__item"><a href="#character" class="nav__link">Character Sheet</a></li>
+                        <li class="nav__item"><a href="#story" class="nav__link">Story Board</a></li>
+                        <li class="nav__item"><a href="#3d" class="nav__link">3D Models</a></li>
+                        <li class="nav__item"><a href="#audio" class="nav__link">Audio</a></li>
                     </ul>
                 </div>
 
@@ -36,17 +36,17 @@
         </header>
 
         <!--===== final =====-->
-        <section>
-            <div class="about__container bd-grid">
+        <section id="drift">
+            <div class="about__container bd-grid top-page">
                 <div class="digital__img">
-                    <video width="640" height="360" controls>
+                    <video width="525" height="360" controls>
                         <source src="assets/work files/Multimedia/DriftingOnRings.mp4" type="video/mp4">
                         <source src="movie.ogg" type="video/ogg">
                         Your browser does not support the video tag.
                       </video>
                 </div>
                 
-                <div>
+                <div class="caption">
                     <h2 class="about__subtitle">Drifting on Rings</h2>
                     <p class="about__text">Cars, apart from being a practical vehicle for transportation, can also be modded and tuned to drive fast and perform well, such as on race tracks. Spaceships travel in space and allow us to explore outside our planet. If you combine the two, you can have some earth-ly events happen in space. A car-model transforms into a space/rocket ship and launches to land on the planet Saturn and proceeds to race and drift on Saturn’s rings. It is different, edgy, and the next-level of a luxury space activity.</p> 
                     <p class="about__text">Software: Blender</p>           
@@ -55,13 +55,13 @@
         </section>
 
         <!-- character sheet -->
-        <section>
+        <section id="character">
             <div class="about__container bd-grid">
                 <div class="digital__img">
                     <img src="assets/work files/Multimedia/CharacterSheet.png"alt="">
                 </div>
                 
-                <div>
+                <div class="caption">
                     <h2 class="about__subtitle">Character Sheet</h2>
                     <p class="about__text">Software: Adobe Photoshop</p>           
                 </div>                                   
@@ -69,20 +69,20 @@
         </section>
 
         <!-- storyboard -->
-        <section>
+        <section id="story">
             <div class="about__container bd-grid">
                 <div class="digital__img">
                     <embed src="assets/work files/Multimedia/StoryBoard.pdf" type="application/pdf" width="100%" height="600px" />
                 </div>
                 
-                <div>
+                <div class="caption">
                     <h2 class="about__subtitle">Story Board</h2>         
                 </div>                                   
             </div>
         </section>
 
         <!-- 3D Models -->
-        <section>
+        <section id="3d">
             <div class="about__container bd-grid">
                 <div class="digital__img">
                     <img src="assets/work files/Multimedia/3D Model.png" alt="">
@@ -90,7 +90,7 @@
                     <img src="assets/work files/Multimedia/blue.png" alt="">
                 </div>
                 
-                <div>
+                <div class="caption">
                     <h2 class="about__subtitle">3D Models</h2>
                     <p class="about__text">Software: Blender</p>           
                 </div>                                   
@@ -98,8 +98,8 @@
         </section>
 
         <!-- Audio-->
-        <section>
-            <div class="about__container bd-grid">
+        <section id="audio">
+            <div class="about__container bd-grid bottom-page">
                 <div class="digital__img">
                     <audio controls>
                         <source src="assets/work files/Multimedia/AudioTrack.mp3" type="audio/ogg">
@@ -108,13 +108,29 @@
                       </audio>
                 </div>
                 
-                <div>
+                <div class="caption">
                     <h2 class="about__subtitle">Audio</h2>
                     <p class="about__text">Software: GarageBand</p>           
                 </div>                                   
             </div>
         </section>
 
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Mayisha</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <!-- <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p> -->
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
 
     </body>
 </html>
