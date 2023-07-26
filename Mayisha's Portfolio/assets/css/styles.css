@@ -135,6 +135,7 @@ img {
     padding: 2rem;
     background-color: var(--second-color);
     transition: .5s;
+    
   }
 }
 
@@ -145,6 +146,7 @@ img {
 .nav__link {
   position: relative;
   color: #fff;
+  white-space: nowrap;
 }
 
 .nav__link:hover {
@@ -170,6 +172,7 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 
 /*Active menu*/
 .active::after {
