@@ -101,7 +101,13 @@ img {
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
-  display: grid;
+  /* display: grid; */
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
+.bd-grid-ux {
+  max-width: 1024px;
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
@@ -575,6 +581,10 @@ img {
 
 @media screen and (min-width: 992px) {
   .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bd-grid-ux {
     margin-left: auto;
     margin-right: auto;
   }
